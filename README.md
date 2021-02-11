@@ -3,25 +3,29 @@ Usando o modulo de notificação por SMS e WhatsApp
 
 # Instalando o modulo via pip
  > ` pip install notifiqueme`
+1- Importando o modulo
+```python
+from notifiqueme import modulo
+```
 
-1- Abrindo uma conexão e autenticando
+2- Abrindo uma conexão e autenticando
 ```python
 notification = modulo.Notification("ClienteId", "SecretKey")
 ```
 
-2- Enviando uma notificação no WhatsApp
+3- Enviando uma notificação no WhatsApp
 ```python
 notification.Send(5531900000000, "Sua mensagem", modulo.NotificationType.WHATSAPP)
 ```
  > ` Explicação: No método send, requer o numero do celular no tipo inteiro, texto para o destinatário no tipo string(str), e por fim o tipo de notificação`
  
- 3- Enviando uma notificação via SMS
+ 4- Enviando uma notificação via SMS
  ```python
 notification.Send(5531900000000, "Sua mensagem", modulo.NotificationType.SMS)
 ```
  > ` Explicação: Neste exemplo para enviar um SMS basta colocar o tipo SMS`
  
- 3- Enviando uma notificação via WhatsApp e SMS
+ 5- Enviando uma notificação via WhatsApp e SMS
  ```python
 notification.Send(5531900000000, "Sua mensagem", modulo.NotificationType.WHATSAPP_SMS)
 ```

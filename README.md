@@ -13,7 +13,7 @@ notification = modulo.Notification("ClienteId", "SecretKey")
 ```python
 notification.Send(5531900000000, "Sua mensagem", modulo.NotificationType.WHATSAPP)
 ```
- > ` Explicação: No metodo send, requer o numero do celular no tipo inteiro, texto para o destinatario no tipo string(str), e por fim o tipo de notificação`
+ > ` Explicação: No método send, requer o numero do celular no tipo inteiro, texto para o destinatário no tipo string(str), e por fim o tipo de notificação`
  
  3- Enviando uma notificação via SMS
  ```python

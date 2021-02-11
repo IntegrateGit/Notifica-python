@@ -32,4 +32,4 @@ notification.Send(5531900000000, "Sua mensagem", modulo.NotificationType.WHATSAP
 >
 > [C#, .net, SDK completo para instalar via nuget](https://github.com/Mrr66/Notifique.me)
 > 
-> [Python, modulo para instalar via pip](https://github.com/Mrr66/Notifique-me-python)
+> [PHP, exemplo simples](https://github.com/Mrr66/php-notifique-me-whatsApp)

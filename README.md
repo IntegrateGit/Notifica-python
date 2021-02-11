@@ -3,6 +3,7 @@ Usando o modulo de notificação por SMS e WhatsApp
 
 # Instalando o modulo via pip
  > ` pip install notifiqueme`
+ 
 1- Importando o modulo
 ```python
 from notifiqueme import modulo
